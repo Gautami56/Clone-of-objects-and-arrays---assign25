@@ -1,0 +1,41 @@
+Requirement -
+Finding ways to copy and mutate the json and array without affecting the parent element from where it is cloned
+
+Object ---
+Way 1 
+1.Take JSON Object 
+2.Convert Object into string and parse it
+3.Add property city to the new Object
+
+Way 2 
+1.Take JSON Object json
+2.Take another JSON Object json1
+3.Assign Original JSON Object json to json1
+4.Add property city to the new Object json1
+
+
+Array ----
+Way 1
+1.Take array array1
+2.Take another JSON Object array2
+3.Slice array array1 and assign to array2
+4.Add value to the array array2
+
+Way 1
+1.Take array array A with [20,30,40]]
+2.Take another array B []
+3.Iterate through array A. Check if that element exists in array B[]
+  #if yes - dont do anythin
+  #if no - push it to array B
+5.Add another value to array B
+6. Check if the original array gets updated
+
+
+
+
+
+
+
+
+
+
